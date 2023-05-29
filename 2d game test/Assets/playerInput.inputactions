@@ -1,0 +1,74 @@
+{
+    "name": "playerInput",
+    "maps": [
+        {
+            "name": "player",
+            "id": "d2a39908-e100-4a44-831e-3f9bfa19eab1",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Value",
+                    "id": "1b44a986-456c-4433-b08c-177babc1252b",
+                    "expectedControlType": "Axis",
+                    "processors": "AxisDeadzone",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "left",
+                    "type": "Button",
+                    "id": "a7e6a26e-b5c6-4bdf-8c85-d87a2cb59ba9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "right",
+                    "type": "Button",
+                    "id": "2ecb5dd1-4a5e-4141-847a-04eb3b09f80e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1f520619-3c11-407a-a9e9-1dedb25643e4",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a99f990b-5985-4fe5-9d74-6dcc93f10147",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff889570-f437-4120-99af-55645e8acc5e",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
